@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قهوه نیروانا</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="src/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="progress-bar">
+            <div class="step active">1</div>
+            <div class="step">2</div>
+            <div class="step">3</div>
+            <div class="step">4</div>
+        </div>
+
+        <div class="form-container">
+            <div class="step-content active" id="step1">
+                <h2>مرحله 1</h2>
+                <button class="next-btn">بعدی</button>
+            </div>
+
+            <div class="step-content" id="step2">
+                <h2>مرحله 2</h2>
+                <button class="prev-btn">قبلی</button>
+                <button class="next-btn">بعدی</button>
+            </div>
+
+            <div class="step-content" id="step3">
+                <h2>مرحله 3</h2>
+                <button class="prev-btn">قبلی</button>
+                <button class="next-btn">بعدی</button>
+            </div>
+
+            <div class="step-content" id="step4">
+                <h2>مرحله 4</h2>
+                <button class="prev-btn">قبلی</button>
+                <button class="submit-btn">ثبت</button>
+            </div>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+</html>
